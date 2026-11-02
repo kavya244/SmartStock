@@ -1,0 +1,92 @@
+
+/* Page */
+.login {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f7fb;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Application name */
+.login h1 {
+    color: #1e293b;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+/* Subtitle */
+.logintitle p {
+    color: #64748b;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Login form */
+.login form {
+    width: 100%;
+    max-width: 380px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+}
+
+/* Input fields */
+.login input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Input focus */
+.login input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+/* Login button */
+.login button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Button hover */
+.login button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Error message */
+.login .error {
+    color: #dc2626;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .login h1 {
+        font-size: 28px;
+    }
+
+    .login form {
+        padding: 24px;
+    }
+}

@@ -1,0 +1,15 @@
+# React
+smartstock-frontend/node_modules/
+smartstock-frontend/dist/
+smartstock-frontend/.env
+smartstock-frontend/.env.*
+
+# Spring Boot
+smartstock-backend/target/
+smartstock-backend/.env
+smartstock-backend/.env.*
+
+# IDE and logs
+.vscode/
+.idea/
+*.log
